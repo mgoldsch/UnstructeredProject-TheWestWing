@@ -1,0 +1,149 @@
+﻿id,title,season,airdate,epnum,prodnum
+1,Pilot,1,22-Sep-99,1-01,475151
+2,"Post Hoc, Ergo Propter Hoc",1,29-Sep-99,1-02,225901
+3,A Proportional Response,1,6-Oct-99,1-03,225902
+4,Five Votes Down,1,13-Oct-99,1-04,000000
+5,The Crackpots and These Women,1,20-Oct-99,1-05,225904
+6,Mr. Willis of Ohio,1,3-Nov-99,1-06,000000
+7,The State Dinner,1,10-Nov-99,1-07,000000
+8,Enemies,1,17-Nov-99,1-08,000000
+9,The Short List,1,24-Nov-99,1-09,000000
+10,In Excelsis Deo,1,15-Dec-99,1-10,000000
+11,Lord John Marbury,1,5-Jan-00,1-11,000000
+12,"He Shall, from Time to Time",1,12-Jan-00,1-12,000000
+13,Take Out the Trash Day,1,26-Jan-00,1-13,000000
+14,Take This Sabbath Day,1,9-Feb-00,1-14,000000
+15,Celestial Navigation,1,16-Feb-00,1-15,225914
+16,20 Hours in L.A.,1,23-Feb-00,1-16,000000
+17,The White House Pro-Am,1,22-Mar-00,1-17,000000
+18,Six Meetings Before Lunch,1,5-Apr-00,1-18,000000
+19,Let Bartlet Be Bartlet,1,26-Apr-00,1-19,000000
+20,Mandatory Minimums,1,3-May-00,1-20,000000
+21,"Lies, Damn Lies and Statistics",1,10-May-00,1-21,225920
+22,What Kind of Day Has It Been?,1,17-May-00,1-22,000000
+23,In the Shadow of Two Gunmen (1),2,4-Oct-00,2-01,000000
+24,In the Shadow of Two Gunmen (2),2,4-Oct-00,2-02,000000
+25,The Midterms,2,18-Oct-00,2-03,000000
+26,In This White House,2,25-Oct-00,2-04,000000
+27,And It's Surely to Their Credit,2,1-Nov-00,2-05,000000
+28,The Lame Duck Congress,2,8-Nov-00,2-06,000000
+29,The Portland Trip,2,15-Nov-00,2-07,000000
+30,Shibboleth,2,22-Nov-00,2-08,000000
+31,Galileo,2,29-Nov-00,2-09,000000
+32,Noel,2,20-Dec-00,2-10,226210
+33,The Leadership Breakfast,2,10-Jan-01,2-11,000000
+34,The Drop In,2,24-Jan-01,2-12,226212
+35,Bartlet's Third State of the Union,2,7-Feb-01,2-13,000000
+36,The War at Home,2,14-Feb-01,2-14,000000
+37,Ellie,2,21-Feb-01,2-15,000000
+38,"Somebody's Going to Emergency, Somebody's Going to Jail",2,28-Feb-01,2-16,000000
+39,The Stackhouse Filibuster,2,14-Mar-01,2-17,000000
+40,17 People,2,4-Apr-01,2-18,000000
+41,Bad Moon Rising,2,25-Apr-01,2-19,000000
+42,The Fall's Gonna Kill You,2,2-May-01,2-20,000000
+43,18th and Potomac,2,9-May-01,2-21,000000
+44,Two Cathedrals,2,16-May-01,2-22,000000
+46,Manchester (1),3,10-Oct-01,3-01,227201
+47,Manchester (2),3,17-Oct-01,3-02,000000
+48,Ways and Means,3,24-Oct-01,3-03,000000
+49,On the Day Before,3,31-Oct-01,3-04,000000
+50,War Crimes,3,7-Nov-01,3-05,000000
+51,Gone Quiet,3,14-Nov-01,3-06,000000
+52,The Indians in the Lobby,3,21-Nov-01,3-07,000000
+53,The Women of Qumar,3,28-Nov-01,3-08,000000
+54,Bartlet for America,3,12-Dec-01,3-09,000000
+55,H. Con-172,3,9-Jan-02,3-10,000000
+56,"100,000 Airplanes",3,16-Jan-02,3-11,000000
+57,The Two Bartlets,3,30-Jan-02,3-12,227213
+58,Night Five,3,6-Feb-02,3-13,227214
+59,Hartsfield's Landing,3,27-Feb-02,3-14,227215
+60,Dead Irish Writers,3,6-Mar-02,3-15,227216
+61,The U.S. Poet Laureate,3,27-Mar-02,3-16,227217
+62,Stirred,3,3-Apr-02,3-17,227218
+63,Enemies Foreign and Domestic,3,1-May-02,3-18,000000
+64,The Black Vera Wang,3,8-May-02,3-19,000000
+65,We Killed Yamamoto,3,15-May-02,3-20,000000
+66,Posse Comitatus,3,22-May-02,3-21,227222
+68,20 Hours in America (1),4,25-Sep-02,4-01,000000
+69,20 Hours in America (2),4,25-Sep-02,4-02,000000
+70,College Kids,4,2-Oct-02,4-03,000000
+71,The Red Mass,4,9-Oct-02,4-04,000000
+72,Debate Camp,4,16-Oct-02,4-05,000000
+73,Game On,4,30-Oct-02,4-06,000000
+74,Election Night,4,6-Nov-02,4-07,000000
+75,Process Stories,4,13-Nov-02,4-08,000000
+76,Swiss Diplomacy,4,20-Nov-02,4-09,000000
+77,Arctic Radar,4,27-Nov-02,4-10,000000
+78,Holy Night,4,11-Dec-02,4-11,000000
+79,Guns Not Butter,4,8-Jan-03,4-12,000000
+80,The Long Goodbye,4,15-Jan-03,4-13,000000
+81,Inauguration Part I,4,5-Feb-03,4-14,000000
+82,Inauguration: Over There,4,12-Feb-03,4-15,000000
+83,The California 47th,4,19-Feb-03,4-16,000000
+84,Red Haven's on Fire,4,26-Feb-03,4-17,000000
+85,Privateers,4,26-Mar-03,4-18,000000
+86,Angel Maintenance,4,2-Apr-03,4-19,000000
+87,Evidence of Things Not Seen,4,23-Apr-03,4-20,000000
+88,Life On Mars,4,30-Apr-03,4-21,000000
+89,Commencement,4,7-May-03,4-22,000000
+90,25,4,14-May-03,4-23,000000
+91,7A WF 83429,5,24-Sep-03,5-01,000000
+92,The Dogs of War,5,1-Oct-03,5-02,000000
+93,Jefferson Lives,5,8-Oct-03,5-03,000000
+94,Han,5,22-Oct-03,5-04,000000
+95,Constituency of One,5,29-Oct-03,5-05,000000
+96,Disaster Relief,5,5-Nov-03,5-06,000000
+97,Separation of Powers,5,12-Nov-03,5-07,000000
+98,Shutdown,5,19-Nov-03,5-08,000000
+99,Abu El Banat,5,3-Dec-03,5-09,000000
+100,The Stormy Present,5,7-Jan-04,5-10,000000
+101,The Benign Prerogative,5,14-Jan-04,5-11,000000
+102,Slow News Day,5,4-Feb-04,5-12,000000
+103,The Warfare of Genghis Khan,5,11-Feb-04,5-13,000000
+104,An Khe,5,18-Feb-04,5-14,000000
+105,Full Disclosure,5,25-Feb-04,5-15,000000
+106,Eppur Si Muove,5,3-Mar-04,5-16,000000
+107,The Supremes,5,24-Mar-04,5-17,000000
+108,Access,5,31-Mar-04,5-18,000000
+109,Talking Points,5,21-Apr-04,5-19,000000
+110,No Exit,5,28-Apr-04,5-20,000000
+111,Gaza,5,12-May-04,5-21,000000
+112,Memorial Day,5,19-May-04,5-22,000000
+113,NSF Thurmont,6,20-Oct-04,6-01,000000
+114,The Birnam Wood,6,27-Oct-04,6-02,000000
+115,Third Day Story,6,3-Nov-04,6-03,000000
+116,Liftoff,6,10-Nov-04,6-04,000000
+117,The Hubbert Peak,6,17-Nov-04,6-05,000000
+118,The Dover Test,6,24-Nov-04,6-06,000000
+119,A Change Is Gonna Come,6,1-Dec-04,6-07,000000
+120,In The Room,6,8-Dec-04,6-08,000000
+121,Impact Winter,6,15-Dec-04,6-09,000000
+122,Faith Based Initiative,6,1-Jan-05,6-10,000000
+123,Opposition Research,6,12-Jan-05,6-11,000000
+124,365 Days,6,19-Jan-05,6-12,000000
+125,King Corn,6,26-Jan-05,6-13,000000
+126,The Wake Up Call,6,9-Feb-05,6-14,000000
+127,Freedonia,6,16-Feb-05,6-15,000000
+128,Drought Conditions,6,23-Feb-05,6-16,000000
+129,A Good Day,6,2-Mar-05,6-17,000000
+130,La Palabra,6,9-Mar-05,6-18,000000
+131,Ninety Miles Away,6,16-Mar-05,6-19,000000
+132,In God We Trust,6,23-Mar-05,6-20,000000
+133,Things Fall Apart,6,30-Mar-05,6-21,000000
+134,2162 Votes,6,6-Apr-05,6-22,000000
+135,The Ticket,7,25-Sep-05,7-01,000000
+136,The Mommy Problem,7,2-Oct-05,7-02,000000
+137,Message of the Week,7,9-Oct-05,7-03,000000
+138,Mr. Frost,7,16-Oct-05,7-04,000000
+139,Here Today,7,23-Oct-05,7-05,000000
+140,The Al Smith Dinner,7,30-Oct-05,7-06,000000
+141,"""Live"" Debate Episode",7,6-Nov-05,7-07,000000
+142,Undecideds,7,4-Dec-05,7-08,000000
+143,The Wedding,7,11-Dec-05,7-09,000000
+144,Running Mates,7,8-Jan-06,7-10,000000
+145,Internal Displacement,7,15-Jan-06,7-11,000000
+146,Duck and Cover,7,22-Jan-06,7-12,000000
+147,The Cold,7,12-Mar-06,7-13,000000
+148,Two Weeks Out,7,19-Mar-06,7-14,000000
+45,Isaac and Ishmael,3,3-Oct-01,S-01,000000
+67,Documentary Special,4,24-Apr-02,S-02,000000

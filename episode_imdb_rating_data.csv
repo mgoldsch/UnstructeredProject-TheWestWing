@@ -1,0 +1,156 @@
+season,episode_number,title,rating,total_votes
+1,1,Pilot,8.6,"1,668"
+1,2,"Post Hoc, Ergo Propter Hoc",8.1,"1,198"
+1,3,A Proportional Response,8.6,"1,187"
+1,4,Five Votes Down,8.1,"1,075"
+1,5,The Crackpots and These Women,8.6,"1,217"
+1,6,Mr. Willis of Ohio,8.7,"1,177"
+1,7,The State Dinner,8.3,"1,017"
+1,8,Enemies,8.0,958
+1,9,The Short List,8.6,"1,026"
+1,10,In Excelsis Deo,9.1,"1,522"
+1,11,Lord John Marbury,8.1,964
+1,12,"He Shall, from Time to Time...",8.6,975
+1,13,Take Out the Trash Day,8.4,930
+1,14,Take This Sabbath Day,8.8,"1,169"
+1,15,Celestial Navigation,8.9,"1,168"
+1,16,20 Hours in L.A.,7.9,923
+1,17,The White House Pro-Am,7.8,856
+1,18,Six Meetings Before Lunch,8.1,913
+1,19,Let Bartlet Be Bartlet,8.9,"1,069"
+1,20,Mandatory Minimums,8.3,887
+1,21,"Lies, Damn Lies and Statistics",8.5,904
+1,22,What Kind of Day Has It Been,9.2,"1,172"
+2,1,In the Shadow of Two Gunmen: Part I,9.4,"1,489"
+2,2,In the Shadow of Two Gunmen: Part II,9.3,"1,284"
+2,3,The Midterms,8.4,934
+2,4,In This White House,8.7,951
+2,5,And It's Surely to Their Credit,8.4,896
+2,6,The Lame Duck Congress,7.7,783
+2,7,The Portland Trip,7.9,787
+2,8,Shibboleth,8.5,"1,059"
+2,9,Galileo,8.3,827
+2,10,Noël,9.4,"1,576"
+2,11,The Leadership Breakfast,8.0,758
+2,12,The Drop In,7.8,748
+2,13,Bartlet's Third State of the Union,8.3,794
+2,14,The War at Home,8.4,783
+2,15,Ellie,8.2,785
+2,16,"Somebody's Going to Emergency, Somebody's Going to Jail",8.7,921
+2,17,The Stackhouse Filibuster,8.9,"1,017"
+2,18,17 People,9.0,935
+2,19,Bad Moon Rising,8.7,823
+2,20,The Fall's Gonna Kill You,8.5,781
+2,21,18th and Potomac,9.0,963
+2,22,Two Cathedrals,9.7,"2,960"
+3,1,Isaac and Ishmael,8.2,"1,095"
+3,2,Manchester: Part I,8.2,752
+3,3,Manchester: Part II,8.2,732
+3,4,Ways and Means,7.8,679
+3,5,On the Day Before,8.0,653
+3,6,War Crimes,8.0,654
+3,7,Gone Quiet,8.0,652
+3,8,The Indians in the Lobby,8.2,711
+3,9,The Women of Qumar,8.1,700
+3,10,Bartlet for America,9.1,945
+3,11,H. Con-172,8.1,656
+3,12,"100,000 Airplanes",8.0,995
+3,13,The Two Bartlets,7.9,661
+3,14,Night Five,8.2,730
+3,15,Hartsfield's Landing,8.5,735
+3,16,Dead Irish Writers,8.3,702
+3,17,The U.S. Poet Laureate,8.1,674
+3,18,Stirred,8.3,634
+3,19,Enemies Foreign and Domestic,8.5,679
+3,20,The Black Vera Wang,8.2,671
+3,21,We Killed Yamamoto,8.3,660
+3,22,Posse Comitatus,9.1,"1,021"
+4,1,20 Hours in America: Part I,8.7,878
+4,2,20 Hours in America: Part II,8.9,661
+4,3,College Kids,8.0,627
+4,4,The Red Mass,7.8,593
+4,5,Debate Camp,8.2,653
+4,6,Game On,8.9,761
+4,7,Election Night,8.6,655
+4,8,Process Stories,7.9,597
+4,9,Swiss Diplomacy,7.7,565
+4,10,Arctic Radar,7.9,571
+4,11,Holy Night,8.2,649
+4,12,Guns Not Butter,7.8,567
+4,13,The Long Goodbye,7.6,751
+4,14,Inauguration: Part 1,8.0,572
+4,15,Inauguration: Part 2 - Over There,8.3,589
+4,16,The California 47th,7.9,571
+4,17,Red Haven's on Fire,7.9,566
+4,18,Privateers,7.5,593
+4,19,Angel Maintenance,7.7,570
+4,20,Evidence of Things Not Seen,8.2,619
+4,21,Life on Mars,8.7,699
+4,22,Commencement,9.0,841
+4,23,Twenty Five,9.3,905
+5,1,7A WF 83429,8.6,703
+5,2,The Dogs of War,8.2,611
+5,3,Jefferson Lives,7.6,588
+5,4,Han,7.8,617
+5,5,Constituency of One,7.6,577
+5,6,Disaster Relief,7.7,549
+5,7,Separation of Powers,8.0,580
+5,8,Shutdown,8.7,676
+5,9,Abu el Banat,7.6,551
+5,10,The Stormy Present,7.6,573
+5,11,The Benign Prerogative,7.6,547
+5,12,Slow News Day,8.1,552
+5,13,The Warfare of Genghis Khan,7.8,558
+5,14,An Khe,7.7,535
+5,15,Full Disclosure,7.8,520
+5,16,Eppur Si Muove,7.7,522
+5,17,The Supremes,9.2,997
+5,18,Access,7.1,661
+5,19,Talking Points,7.6,513
+5,20,No Exit,8.0,555
+5,21,Gaza,8.5,601
+5,22,Memorial Day,8.3,568
+6,1,N.S.F. Thurmont,8.1,567
+6,2,The Birnam Wood,8.4,573
+6,3,Third-Day Story,8.0,526
+6,4,Liftoff,8.4,569
+6,5,The Hubbert Peak,7.7,520
+6,6,The Dover Test,7.6,493
+6,7,A Change Is Gonna Come,7.8,493
+6,8,In the Room,8.3,536
+6,9,Impact Winter,8.6,546
+6,10,Faith-Based Initiative,8.0,516
+6,11,Opposition Research,7.8,526
+6,12,365 Days,7.7,492
+6,13,King Corn,8.0,546
+6,14,The Wake Up Call,7.7,528
+6,15,Freedonia,8.2,508
+6,16,Drought Conditions,8.1,557
+6,17,A Good Day,8.4,577
+6,18,La Palabra,8.3,506
+6,19,Ninety Miles Away,7.2,507
+6,20,In God We Trust,8.2,518
+6,21,Things Fall Apart,8.1,491
+6,22,2162 Votes,8.9,617
+7,1,The Ticket,8.0,567
+7,2,The Mommy Problem,7.8,534
+7,3,Message of the Week,7.8,503
+7,4,Mr. Frost,7.9,507
+7,5,Here Today,8.5,551
+7,6,The Al Smith Dinner,8.0,507
+7,7,The Debate,8.8,816
+7,8,Undecideds,8.0,519
+7,9,The Wedding,7.8,507
+7,10,Running Mates,8.2,515
+7,11,Internal Displacement,8.0,509
+7,12,Duck and Cover,8.5,525
+7,13,The Cold,8.2,542
+7,14,Two Weeks Out,8.1,493
+7,15,Welcome to Wherever You Are,7.7,513
+7,16,Election Day: Part 1,8.6,585
+7,17,Election Day: Part 2,9.1,677
+7,18,Requiem,8.8,683
+7,19,Transition,8.5,541
+7,20,The Last Hurrah,8.4,537
+7,21,Institutional Memory,8.6,531
+7,22,Tomorrow,9.0,864

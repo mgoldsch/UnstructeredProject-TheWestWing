@@ -14,9 +14,6 @@ episode_metadata_df = pd.read_csv("episode_metadata.csv")
 corpusdir = "Scripts/"
 TWW_corpus = PlaintextCorpusReader(corpusdir, '^.*\.txt')
 
-TWW_file_ids = TWW_corpus.fileids()
-TWW_file_ids_to_id = {}
-
 stopwords_en = stopwords.words("english")
 custom_stopword_list = ["--", '."', "...", "’", "–"]
 stopwords_en.extend(custom_stopword_list)

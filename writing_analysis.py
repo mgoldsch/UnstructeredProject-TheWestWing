@@ -17,7 +17,7 @@ for infile in sorted(TWW_corpus.fileids()):
     print(infile) # The fileids of each file.
 
 stopwords_en = stopwords.words("english")
-custom_stopword_list = ["--", '."', "...", "'", "-", "'", "’", "–"]
+custom_stopword_list = ["--", '."', "...", "’", "–"]
 stopwords_en.extend(custom_stopword_list)
 stopwords_en.extend(string.punctuation)
 

@@ -26,10 +26,6 @@ for w in TWW_corpus.words():
   if ((w.lower() not in stopwords_en) & (w.isupper() == False)):
     TWW_corpus_words_no_stop.append(w)
 
-freq1 = FreqDist(TWW_corpus_words_no_stop)
-freq1.plot(10)
-print(freq1.most_common(n=10))
-
 # set max features and whether we want stopwords or not
 cvect_tww = CountVectorizer(stop_words='english', max_features = 1000)
 X_tww = cvect_tww.fit_transform(TWW_corpus.raw().split()) 

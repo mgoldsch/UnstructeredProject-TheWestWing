@@ -11,9 +11,6 @@ import numpy as np
 import pandas as pd
 from nltk.tokenize import word_tokenize
 
-
-#nltk.download('stopwords')
-
 corpusdir = "Scripts/"
 TWW_corpus = PlaintextCorpusReader(corpusdir, '^.*\.txt')
 
@@ -58,32 +55,46 @@ for infile in sorted(TWW_corpus.fileids()):
 #       print('{}: {}'.format(vocab_tww[top_tokens[i]], topic[top_tokens[i]]))
 #     print()
 
-def tfidf_vectorizer(corpus):
-  cvect = CountVectorizer(stop_words='english', max_features = 1000) 
-  count_matrix = cvect.fit_transform(corpus) 
-  features = cvect.get_feature_names() 
-
-  count_matrix = pd.DataFrame(count_matrix.todense()) 
-
-  df_vect = count_matrix.astype(bool).sum(axis=0) 
-  df_vect = np.log(len(corpus) / df_vect) 
-
-  return features, np.array(count_matrix * df_vect) 
-
-
-features, X = tfidf_vectorizer(TWW_corpus.raw().split())
-print(X.shape)
-
+vocab = set(TWW_corpus.words())
 # build our idx_to_token dictionary
 idx_to_tokens = {}
 tokens_to_idx = {}
 
-for i in range(len(features)):
-  token = features[i] 
+i=0
+
+for token in vocab:
   tokens_to_idx[token] = i 
   idx_to_tokens[i] = token 
+  i+=1
 
-top_tokens = np.argsort(X[0])[::-1]
+num_ep = 148
+num_tokens = len(vocab) 
+counts_matrix = np.zeros((num_ep, num_tokens))
+
+for i in range(len(TWW_corpus.fileids())):
+  doc = TWW_corpus.words(TWW_corpus.fileids()[i])
+  for token in doc:
+    token_idx = tokens_to_idx[token] 
+
+    counts_matrix[i, token_idx] += 1 
+
+doc_frequency = [0] * len(vocab)
+
+for i in range(len(TWW_corpus.fileids())):
+    ep_vocab = set(TWW_corpus.words(TWW_corpus.fileids()[i]))
+    for token in ep_vocab:
+        doc_frequency[tokens_to_idx[token]] += 1
+
+
+# once we have all of our counts, we divide by the number of documents in our corpus
+doc_frequency = [df / num_ep for df in doc_frequency]
+#idf
+inverse_doc_frequency = [np.log(1/df) for df in doc_frequency]
+
+#tfidf
+tww_tfidf = np.array(counts_matrix * inverse_doc_frequency)
+
+top_tokens = np.argsort(tww_tfidf[0])[::-1]
 top_tokens = top_tokens[0:10]
 print(top_tokens)
 for t in top_tokens:

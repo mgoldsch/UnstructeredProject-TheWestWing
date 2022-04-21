@@ -9,7 +9,6 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.decomposition import LatentDirichletAllocation 
 import numpy as np
 import pandas as pd
-from nltk.tokenize import word_tokenize
 
 corpusdir = "Scripts/"
 TWW_corpus = PlaintextCorpusReader(corpusdir, '^.*\.txt')
@@ -17,45 +16,18 @@ TWW_corpus = PlaintextCorpusReader(corpusdir, '^.*\.txt')
 for infile in sorted(TWW_corpus.fileids()):
     print(infile) # The fileids of each file.
 
-# stopwords_en = stopwords.words("english")
-# custom_stopword_list = ["--", '."', "...", "'", "-", "'", "’", "–"]
-# stopwords_en.extend(custom_stopword_list)
-# stopwords_en.extend(string.punctuation)
+stopwords_en = stopwords.words("english")
+custom_stopword_list = ["--", '."', "...", "'", "-", "'", "’", "–"]
+stopwords_en.extend(custom_stopword_list)
+stopwords_en.extend(string.punctuation)
 
-# TWW_corpus_words_no_stop = []
-# for w in TWW_corpus.words():
-#   if ((w.lower() not in stopwords_en) & (w.isupper() == False)):
-#     TWW_corpus_words_no_stop.append(w)
+vocab_pre = set(TWW_corpus.words())
+vocab = []
+for w in vocab_pre:   
+    if ((w.lower() not in stopwords_en) & (w.isupper() == False)):    
+        vocab.append(w)
+vocab = set(vocab)
 
-#freq1 = FreqDist(TWW_corpus_words_no_stop)
-#freq1.plot(10)
-#print(freq1.most_common(n=10))
-
-# # set max features and whether we want stopwords or not
-# cvect_tww = CountVectorizer(stop_words='english', max_features = 1000)
-# X_tww = cvect_tww.fit_transform(TWW_corpus.raw().split()) 
-# vocab_tww = cvect_tww.get_feature_names()
-
-# NUM_TOPICS = 10
-# lda = LatentDirichletAllocation(n_components=NUM_TOPICS) 
-
-# lda.fit(X_tww) 
-
-# # look at the top tokens for each topic
-
-# TOP_N = 10  # change this to see the top N words per topic
-
-# topic_norm = lda.components_ / lda.components_.sum(axis=1)[:, np.newaxis]
-
-# for idx, topic in enumerate(topic_norm):
-#     print("Topic id: {}".format(idx))
-#     #print(topic)
-#     top_tokens = np.argsort(topic)[::-1] 
-#     for i in range(TOP_N):
-#       print('{}: {}'.format(vocab_tww[top_tokens[i]], topic[top_tokens[i]]))
-#     print()
-
-vocab = set(TWW_corpus.words())
 # build our idx_to_token dictionary
 idx_to_tokens = {}
 tokens_to_idx = {}
@@ -72,7 +44,12 @@ num_tokens = len(vocab)
 counts_matrix = np.zeros((num_ep, num_tokens))
 
 for i in range(len(TWW_corpus.fileids())):
-  doc = TWW_corpus.words(TWW_corpus.fileids()[i])
+  doc_pre = TWW_corpus.words(TWW_corpus.fileids()[i])
+  doc = []
+  for w in doc_pre:
+      if ((w.lower() not in stopwords_en) & (w.isupper() == False)):    
+        doc.append(w)
+
   for token in doc:
     token_idx = tokens_to_idx[token] 
 
@@ -81,7 +58,13 @@ for i in range(len(TWW_corpus.fileids())):
 doc_frequency = [0] * len(vocab)
 
 for i in range(len(TWW_corpus.fileids())):
-    ep_vocab = set(TWW_corpus.words(TWW_corpus.fileids()[i]))
+    ep_vocab_pre = set(TWW_corpus.words(TWW_corpus.fileids()[i]))
+    ep_vocab = []
+    for w in ep_vocab_pre:
+      if ((w.lower() not in stopwords_en) & (w.isupper() == False)):    
+        ep_vocab.append(w)
+    ep_vocab = set(ep_vocab)
+
     for token in ep_vocab:
         doc_frequency[tokens_to_idx[token]] += 1
 
@@ -94,8 +77,21 @@ inverse_doc_frequency = [np.log(1/df) for df in doc_frequency]
 #tfidf
 tww_tfidf = np.array(counts_matrix * inverse_doc_frequency)
 
-top_tokens = np.argsort(tww_tfidf[0])[::-1]
-top_tokens = top_tokens[0:10]
-print(top_tokens)
-for t in top_tokens:
-  print(idx_to_tokens[t])
+fileids = TWW_corpus.fileids()
+fileid_to_id = {}
+i = 0
+for id in fileids:
+    fileid_to_id[id] = i
+    i += 1
+
+tfidf_eps_print = ["ep_id_1_script.txt", "ep_id_44_script.txt", "ep_id_65_script.txt", "ep_id_79_script.txt", 
+"ep_id_107_script.txt", "ep_id_126_script.txt", "ep_id_136_script.txt"]
+
+for id in tfidf_eps_print:
+    top_tokens = np.argsort(tww_tfidf[fileid_to_id[id]])[::-1]
+    top_tokens = top_tokens[0:10]
+    #print(top_tokens)
+    print("\n")
+    print(id)
+    for t in top_tokens:
+        print(idx_to_tokens[t])
